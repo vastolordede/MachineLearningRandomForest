@@ -39,3 +39,4 @@ kaggle.json
 *.log
 .DS_Store
 Thumbs.db
+*.egg-info/

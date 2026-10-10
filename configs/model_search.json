@@ -1,0 +1,15 @@
+{
+  "decision_tree": {
+    "max_depth": [4, 8, 12, null],
+    "min_samples_split": [2, 10],
+    "min_samples_leaf": [1, 5],
+    "max_features": [1.0]
+  },
+  "custom_random_forest": {
+    "n_estimators": [30, 100],
+    "max_depth": [8, 14],
+    "min_samples_leaf": [1, 5],
+    "max_features": [0.7, 1.0],
+    "bootstrap": [true]
+  }
+}
