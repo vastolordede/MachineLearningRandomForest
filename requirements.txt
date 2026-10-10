@@ -1,0 +1,6 @@
+# For data/model features in upcoming patches; smoke tests in this patch use stdlib only.
+pandas>=2.2,<3
+pyarrow>=17,<25
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
+matplotlib>=3.8,<4

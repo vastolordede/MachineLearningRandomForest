@@ -1,0 +1,24 @@
+{
+  "project_name": "MachineLearningRandomForest",
+  "dataset": {
+    "source": "huggingface",
+    "repository": "imbalet/used_cars",
+    "revision": "c991ee48ac5b83b08a88f8b86ec222a26413f350",
+    "expected_raw_columns": 21,
+    "target": "price",
+    "currency": null,
+    "input_format": "parquet",
+    "input_path": null
+  },
+  "split": {
+    "train": 0.70,
+    "dev": 0.15,
+    "test": 0.15,
+    "random_seed": 42,
+    "status": "provisional_pending_D13"
+  },
+  "artifacts": {
+    "local_dir": "outputs",
+    "persistent_store": "pending_integration_test"
+  }
+}
