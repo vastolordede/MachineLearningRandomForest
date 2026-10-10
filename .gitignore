@@ -1,0 +1,41 @@
+# Local patch tooling (never commit)
+work/
+
+# Python / IDE
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Secrets / auth
+.env
+.env.*
+!.env.example
+kaggle.json
+.aws/
+*.pem
+*.p12
+*.jks
+*.key
+
+# Data and generated artifacts
+/data/raw/
+/data/processed/
+/artifacts/
+/outputs/
+/runs/
+/wandb/
+*.parquet
+*.joblib
+*.pkl
+
+# Logs and OS
+*.log
+.DS_Store
+Thumbs.db
