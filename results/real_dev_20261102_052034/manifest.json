@@ -1,0 +1,31 @@
+{
+  "run_id": "real_dev_20261102_052034",
+  "created_at_utc": "2026-11-02T05:21:39.867486+00:00",
+  "dataset": {
+    "source": "kaggle:ncd426/machinelearning",
+    "path": "/kaggle/input/datasets/ncd426/machinelearning",
+    "approved": false,
+    "rows": 302471,
+    "train_rows_total": 302471,
+    "train_rows_used": 302471,
+    "val_rows_used": 64826,
+    "test_used": false,
+    "missing_contract_features": [
+      "body_type_name",
+      "characteristics"
+    ],
+    "contract_match": false
+  },
+  "git_commit": "d63dff46ec1c32d175f75eda38be4f52a1044710",
+  "environment": {
+    "python": "3.13.15",
+    "scikit_learn": "1.6.1",
+    "numpy": "2.1.3",
+    "pandas": "2.3.3"
+  },
+  "files": [
+    "config.json",
+    "metrics.json",
+    "predictions.csv"
+  ]
+}
